@@ -23,10 +23,11 @@
         <host.local.url>localhost</host.local.url>
         <host.ose.url>ticket-monster.cloudapps-27ef.oslab.opentlc.com</host.ose.url>
         <host.docker.url>rhel-docker.vm</host.docker.url>
+        <path.ose>ticket-monster</path.ose>
 
         <performancetest.webservice.host>localhost</performancetest.webservice.host>
         <performancetest.webservice.port>${jetty.port}</performancetest.webservice.port>
-        <performancetest.webservice.path>/ticket-monster</performancetest.webservice.path>
+        <performancetest.webservice.path>ticket-monster</performancetest.webservice.path>
         <performancetest.connectTimeout>1000</performancetest.connectTimeout>
         <performancetest.responseTimeout>3000</performancetest.responseTimeout>
         <performancetest.threadCount>20</performancetest.threadCount>
@@ -102,7 +103,7 @@
             <properties>
                 <performancetest.webservice.host>${host.ose.url}</performancetest.webservice.host>
                 <performancetest.webservice.port>${port.ose}</performancetest.webservice.port>
-                <performancetest.webservice.path>/</performancetest.webservice.path>
+                <performancetest.webservice.path>${path.ose}</performancetest.webservice.path>
                 <performancetest.connectTimeout>1000</performancetest.connectTimeout>
                 <performancetest.responseTimeout>3000</performancetest.responseTimeout>
                 <performancetest.threadCount>20</performancetest.threadCount>
