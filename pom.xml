@@ -21,12 +21,12 @@
         <jetty.stopPort>19097</jetty.stopPort>
 
         <host.local.url>localhost</host.local.url>
-        <host.ose.url>loadtest.rhel-ose.vm</host.ose.url>
+        <host.ose.url>ticket-monster.cloudapps-27ef.oslab.opentlc.com</host.ose.url>
         <host.docker.url>rhel-docker.vm</host.docker.url>
 
         <performancetest.webservice.host>localhost</performancetest.webservice.host>
         <performancetest.webservice.port>${jetty.port}</performancetest.webservice.port>
-        <performancetest.webservice.path>/</performancetest.webservice.path>
+        <performancetest.webservice.path>/ticket-monster</performancetest.webservice.path>
         <performancetest.connectTimeout>1000</performancetest.connectTimeout>
         <performancetest.responseTimeout>3000</performancetest.responseTimeout>
         <performancetest.threadCount>20</performancetest.threadCount>
